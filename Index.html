@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap");
+    </style>
+  </head>
+
+  <body>
+   <!-- nav section -->
+   <header id="home">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3 border-bottom fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-2" href="#"> <span class="text-danger "><span id="shiva" class="text-danger">Renu's World</span></span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+          <li class="nav-item">
+            <a class="nav-link active  " aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#anout">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Moments</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Hobbies
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#services">Photography</a></li>
+              <li><a class="dropdown-item" href="#services">Music</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#services">Dancing</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+  </header>
+
+  <!-- header tag -->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./Renu/Carousel_1_R.jpg" class="d-block w-100" alt="./paralex.webp">
+        <div class="carousel-caption  d-md-block">
+          <h2 class="text-danger">It's my Day</h2>
+          <p class="text-warning "><b>Always spend sometime with yourself, so you can explore yourself.</b></p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./Renu/carousel_3_R.jpg" class="d-block w-100" alt="./paralex.webp">
+        <div class="carousel-caption  d-md-block">
+            <h2 class="text-success">It's my Day</h2>
+            <p class="text-info"><b>Always spend sometime with yourself, so you can explore yourself.</b></p>
+        </div>
+      </div>
+      <div class="carousel-item" >
+        <img src="./Renu/Carousel_2_R.jpg" class="d-block w-100" alt="./paralex.webp">
+        <div class="carousel-caption  d-md-block">
+            <h2 class="text-warning">It's my Day</h2>
+            <p class="text-primary"><b>Always spend sometime with yourself, so you can explore yourself.</b></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- About section  -->
+  <section class="about my-5" id="anout">
+    <div class="container ">
+       <div class="text-center mb-5">
+          <h1 data-aos="fade-up" data-aos-offset="200"><span class="text-danger" >About </span><span class="text-primary">me</span></h1>
+          <hr class="w-25 m-auto" >
+       </div>
+       <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="zoom-in" data-aos-offset="200">
+            <h2>What do you <span class="text-primary"> want to know</span></h2>
+
+            <h5>Hi There!!!</h5>
+            <h2><span class="text-danger">I am Renu</span></h2>
+            <p class="p-2">Who's like Vibrant beats, soulful melodies, and heartfelt emotions - music is my passion. 
+                Dancing to the rhythm of life, I let my spirit soar. With emotions that run deep, I cherish connections 
+                that touch the heart. Surrounding myself with loving friends, I find my tribe, my happiness, and my home.</p>
+            <button type="button" class="btn btn-success mb-5">More About me</button>
+
+            <div class="accordion" id="accordionExample" data-aos="zoom-in-left" data-aos-offset="200">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      My Qualification
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      I have done M.A. and Now working in Coprate
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Hobbies
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    My hobbies are I like to play Khadingo baithingo(🤪😆) and listening music.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      My Dreams
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      My dream is to make it really big one day
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end">
+            <img src="./Renu/About.jpg" alt="Renu's img"  data-aos="fade-right" data-aos-offset="200" id="AboutImg"  class="img-fluid img-thumbnail">
+          </div>
+       </div>
+    </div>
+  </section>
+
+   <!-- Momemts secetion  -->
+   <section id="team">
+    <div class="container">
+        <div class="text-center mb-5 my-5 ">
+            <h1 data-aos="fade-up" data-aos-offset="200"><span class="text-danger ">My </span><span class="text-primary">Moments</span></h1>
+            <hr class="w-25 m-auto" >
+         </div>
+
+         <div class="Row-1" data-aos="zoom-in-down" data-aos-offset="200" >
+            <img src="./Renu/Gall_1.jpg" alt="ims" class="img-fluid">
+              <img src="./Renu/Gall_2.jpg" alt="ims" class="img-fluid">
+            <img src="./Renu/Gall_3.jpg" alt="ims" class="img-fluid">
+        
+         </div>
+
+         <div class="Row-1" data-aos="zoom-in-down" data-aos-offset="200" >
+                      <img src="./Renu/Moment_1.jpg" alt="ims" class="img-fluid">
+                      <img src="./Renu/Moment_2.jpg" alt="ims" class="img-fluid ">
+                      <img src="./Renu/Momemts.jpg" alt="ims" class="img-fluid">
+         </div>
+
+         
+         </div>
+    </div>
+  </section>
+
+  <!-- Hobbies section  -->
+  <section class="services py-5 bg-light" id="services">
+    <div class="container">
+        <div class="text-center mb-5 my-5 ">
+            <h1 data-aos="fade-up" data-aos-offset="200"><span class="text-danger ">My </span><span class="text-primary">Hobbies</span></h1>
+            <hr class="w-25 m-auto" >
+         </div>
+         <div class="row " data-aos="zoom-in-up" data-aos-offset="200">
+         <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title text-danger">Dancing</h2>
+                  <p class="card-text">Dancing is my passion, my escape, and my happiness. I love losing myself in the rhythm and letting the music move me. With every step, I feel alive and free.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+         </div>
+         <div class="col-sm-12 col-md-4 col-lg-4 col-12 ">
+            <div class="card ">
+                <div class="card-body">
+                  <h2 class="card-title text-success">Music</h2>
+                  <p class="card-text ">Music is my soulmate, I love how it makes me feel,
+                     think,& connect with the world around me. Every beat,& every melody resonates deep within my heart.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+         </div>
+         <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title text-info">Photograpgy</h2>
+                  <p class="card-text">Photography is my lens world, capturing life's beauty, I love freezing moments, 
+                    telling stories, evoking emotions through the power of a single image.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+         </div>
+         </div>
+    </div>
+  </section>
+
+  <!-- contact section  -->
+  <section class="contact py-5 " id="contact">
+      <div class="container ">
+        <div class="text-center mb-5 my-5 ">
+            <h1 data-aos="fade-up" data-aos-offset="200"><span class="text-danger ">Contact </span><span class="text-primary">Us</span></h1>
+            <hr class="w-25 m-auto" >
+         </div>
+         <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="fade-up-left" >
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <textarea name="Feedback" id="" rows="4">Feedback</textarea>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                  </form>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end p-4" data-aos="fade-up-right">
+                <img src="./Renu/Contact.jpg" id="contact-img"  alt="contactimg" class="img-fluid thumnail">
+            </div>
+         </div>
+      </div>
+  </section>
+
+  <!-- footer  -->
+  <div class="container-fluid bg-dark text-danger p-3 text-center">
+    <h2 class="text-success"> <span class="text-danger">Renu's World </span>and Some Unforgatable Moment</h2> 
+    <h4 class="text-white">All &copy;Right Reserved By Renu's World</h4>
+  </div>
+
+
+
+     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+  </body>
+</html>
